@@ -1,4 +1,6 @@
 # Simple Wizard - Scriptable Linux Installation Wizard
+![Simple Wizard icon](./simple_wizard_icon.svg)
+
 
 A GTK4-based installation wizard for Linux that can be controlled via scripts.
 ## Features

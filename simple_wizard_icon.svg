@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="256" cy="256" r="220" fill="url(#bgGlow)" opacity="0.15"/>
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#93c5fd"/>
+      <stop offset="1" stop-color="#93c5fd" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hatGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0" stop-color="#818cf8"/>
+      <stop offset="1" stop-color="#4f46e5"/>
+    </linearGradient>
+    <linearGradient id="robeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#6d28d9"/>
+    </linearGradient>
+    <linearGradient id="staffGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0" stop-color="#fbbf24"/>
+      <stop offset="1" stop-color="#d97706"/>
+    </linearGradient>
+    <filter id="dropShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#1e1b4b" flood-opacity="0.25"/>
+    </filter>
+    <path id="text-path-0" d="M -19.97300148010254 42.5408821105957 Q 28.9628849029541 18.701515197753906 77.89877128601074 42.5408821105957"/>
+    <path id="path-0" d="M -130.72073425450338 32.0467564378601 L -88.01886986154469 45.422441062057175" style="fill: none;"/>
+    <path id="path-1" d="M 37.309 125.715 C 46.94 135.374 52.781 137.139 57.786 139.642 C 71.943 144.067 79.156 145.498 90.585 145.498 C 107.911 145.498 120.912 140.27 130.789 140.27 C 138.628 137.454 143.215 136.861 148.161 131.914 C 151.037 129.039 154.697 127.361 156.124 124.507 L 156.757 123.874 C 158.073 122.768 159.067 120.37 160.537 118.9" style="fill: none;"/>
+  </defs>
+  <g id="staff" filter="url(#dropShadow)" transform="matrix(1, 0, 0, 1, 0, 4)">
+    <rect x="341" y="139" width="16" height="240" rx="8" fill="#78350f"/>
+    <circle cx="349" cy="119" r="28" fill="url(#staffGrad)"/>
+    <circle cx="341" cy="111" r="10" fill="#fef08a" opacity="0.6"/>
+  </g>
+  <path d="M 313 261 L 353 306 L 331 326 L 288 276 L 313 261 Z" fill="#6d28d9" filter="url(#dropShadow)"/>
+  <path d="M 199 260 L 159 310 L 189 325 L 224 275 L 199 260 Z" fill="#6d28d9" filter="url(#dropShadow)"/>
+  <path d="M 160 380 L 200 260 L 312 260 L 352 380 L 160 380 Z" fill="url(#robeGrad)" filter="url(#dropShadow)"/>
+  <circle cx="165" cy="323" r="12" fill="#fed7aa" filter="url(#dropShadow)"/>
+  <circle cx="346" cy="320" r="12" fill="#fed7aa" filter="url(#dropShadow)"/>
+  <circle cx="256" cy="214" r="55" fill="#fed7aa" filter="url(#dropShadow)"/>
+  <circle cx="236" cy="209" r="5" fill="#1e293b" filter="url(#dropShadow)"/>
+  <circle cx="276" cy="209" r="5" fill="#1e293b" filter="url(#dropShadow)"/>
+  <path d="M 251 218 C 254.16 224.425 257.21 226.22 261 218" stroke="#f97316" stroke-width="4" stroke-linecap="round" fill="none" filter="url(#dropShadow)"/>
+  <path d="M 225 238 C 245.667 241.333 266.333 241.333 287 238 C 265.921 380.711 245.204 396.3 225 238" fill="#e2e8f0" filter="url(#dropShadow)"/>
+  <path d="M 204.268 167.467 L 256 52 L 311.819 167.342 L 204.268 167.467 Z" fill="url(#hatGrad)" filter="url(#dropShadow)"/>
+  <ellipse cx="256" cy="177" rx="72.168" ry="18" fill="#4f46e5" filter="url(#dropShadow)"/>
+  <g transform="matrix(1.3, 0, 0, 1.3, 256, 99)" filter="url(#dropShadow)">
+    <path d="M 0 1.842 L 3.5 10.842 L 12 10.842 L 5 15.842 L 8 24.842 L 0 18.842 L -8 24.842 L -5 15.842 L -12 10.842 L -3.5 10.842 L 0 1.842 Z" fill="#fbbf24"/>
+  </g>
+</svg>
